@@ -1,0 +1,132 @@
+#first{
+    background-image: url("images/123.jpg");
+   height: 100%;
+    background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+#first span{
+    background-color: white;
+    color: lightblue;
+    padding: 15px;
+    border-radius: 25px;
+     position: absolute;
+    top: 10%;
+    left: 4%;
+
+    cursor:pointer;
+}
+#first span:hover{
+    background-color: #3c3cde;
+    color: white;
+}
+#first .slider{
+    position: relative;
+    top: 5%;
+    left: 10%;
+        height: 35%;
+}
+#first img{
+    width: 25%;
+    border: 1px solid transparent;
+    border-radius: 35px;
+    float: left;
+    }
+#first h1{
+    font-size: 3.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0px;
+    padding-top: 10px;
+    line-height: 50px;
+}
+#first p{
+    letter-spacing: 1px;
+    opacity: .5;
+    text-transform: capitalize;
+    font-size: .9em;
+}
+.fa-phone{
+    padding: 32px;
+    float: left;
+    border: 1px solid transparent;
+    background-color: lightblue;
+    color: white;
+    border-radius: 39px;
+        margin-right: 10px;
+}
+#first h2{
+    padding: 8px;
+    text-decoration: underline;
+    color: #868585;
+    font-size: 1.2em;
+    
+}
+.fa-map-marker{
+    padding: 32px;
+   
+    border: 1px solid transparent;
+    background-color: lightblue;
+    color: white;
+    border-radius: 39px;
+        margin-right: 10px;
+}
+#first h3{
+    color: #868585;
+    font-size: 1.2em;
+    padding: 8px;
+    text-decoration: underline;
+
+}
+
+.information h1{
+    font-size: 2em;
+    color: cornflowerblue;
+}
+.information p{
+    line-height: 30px;
+}
+.information button{
+    padding: 10px 17px;
+    background-color: #c77610;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.information button:hover{
+    background-color: blue;
+    color: aqua;
+}
+#first input{
+     padding: 10px;
+    border: 1px solid black;
+    margin: 5px 0px;
+    padding-right: 50px;
+}
+#first h6{
+        font-size: 1.4em;
+    color: white;
+    text-transform: capitalize;
+    text-align: left;
+        padding-left: 15%;
+}
+.bgcolor{
+    background-color: black;
+    opacity: .7;
+    height: 35%;
+
+}
+.bgcolor>div{
+text-align: center;
+padding: 10px;
+}
+.fa-circle{
+   color: #c77610;
+    padding: 5px;
+    font-size: 1.8em; 
+    text-shadow: 0px 0px 5px;
+
+}

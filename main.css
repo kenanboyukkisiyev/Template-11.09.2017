@@ -141,9 +141,64 @@ box-sizing: border-box;
     padding: 50px 0px;
     
 }
+#second .seconddiv1::before{
+    content: "opening house";
+    font-size: 1.5em;
+    text-transform: capitalize;
+    opacity: .7;
+    background: blue;
+    color: white;
+    padding: 5px 25px;
+    position: absolute;
+    top: 42%;
+    transform: rotate(270deg);
+    left: -28%;
+}
+#second .seconddiv2::before{
+    content: "doctor's timetable";
+    font-size: 1.5em;
+    text-transform: capitalize;
+    opacity: .7;
+    background:blue;
+    color: white;
+    padding: 5px 8px;
+    position: absolute;
+    top: 41%;
+    transform: rotate(270deg);
+    left: -28%;
+}
+#second .seconddiv3::before{
+    content: "appointments";
+    font-size: 1.5em;
+    text-transform: capitalize;
+    opacity: .7;
+    background:blue;
+    padding: 5px 36px;
+    position: absolute;
+    top: 43%;
+    transform: rotate(270deg);
+    left: -29%;
+    color: white;
+}
+#second .seconddiv4::before{
+    content: "emergency cases";
+    font-size: 1.5em;
+    text-transform: capitalize;
+    opacity: .7;
+    background: blue;
+    padding: 5px 18px;
+    position: absolute;
+    top: 43%;
+    transform: rotate(270deg);
+    left: -29%;
+    color: white;
+}
 #second .seconddiv{
     padding: 10px 25px;
     height: 200px;
+    position: relative;
+    margin: 10px 30px;
+        background: #fbf4f4;
 }
 .secondul{
     margin-left: 20px;

@@ -1,6 +1,6 @@
 #first{
     background-image: url("images/123.jpg");
-   height: 100%;
+   height: 800px;
     background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -9,7 +9,7 @@
     color: lightblue;
     padding: 15px;
     border-radius: 25px;
-     position: absolute;
+     position: fixed;
     top: 10%;
     left: 4%;
 
@@ -46,7 +46,7 @@
     text-transform: capitalize;
     font-size: .9em;
 }
-.fa-phone{
+#first .fa-phone{
     padding: 32px;
     float: left;
     border: 1px solid transparent;
@@ -79,9 +79,14 @@
 
 }
 
-.information h1{
+.information h4{
     font-size: 2em;
     color: cornflowerblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0px;
+    padding-top: 10px;
+    line-height: 50px;
 }
 .information p{
     line-height: 30px;
@@ -121,12 +126,577 @@
 }
 .bgcolor>div{
 text-align: center;
-padding: 10px;
+padding: 25px;
+box-sizing: border-box;
 }
 .fa-circle{
    color: #c77610;
-    padding: 5px;
-    font-size: 1.8em; 
+    padding: 5px; 
     text-shadow: 0px 0px 5px;
 
+}
+/* ROTATE SECTION */
+#second{
+    height: 300px;
+    padding: 50px 0px;
+    
+}
+#second .seconddiv{
+    padding: 10px 25px;
+    height: 200px;
+}
+.secondul{
+    margin-left: 20px;
+}
+#second .fa{
+    display: block;
+    color: brown;
+    font-size: 4em;
+}
+#second p{
+    opacity: .8;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+#second h1{
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 2em;
+    opacity: .8;
+}
+#second h2{
+    padding: 20px 0px;
+    letter-spacing: 1px;
+    font-size: 1em;
+    opacity: .7;
+}
+#second ul{
+display: inline-block;
+}
+#second ul li{
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 1em;
+    opacity: .7;
+}
+
+
+/* THIRD SECTION */
+#third{
+    height: 330px;
+}
+#third h1{
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    opacity: .8;
+}
+#third hr{
+    width: 5%;
+    margin-top: 20px;
+    border-bottom: 2px solid #f46c3f;
+    
+}
+#third .thirddiv .fa{
+    
+    float: left;
+    font-size: 3.5em;
+    border: 1px solid transparent;
+    padding: 15px;
+    background-color: #f46c3f;
+    color: white;
+    border-radius: 50px;
+}
+.thirddiv{
+    height: 130px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#third h2{
+    font-size: 1.7em;
+    font-weight: bold;
+    opacity: .8;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+#third p{
+    color: black;
+    font-size: 1em;
+    letter-spacing: 1px;
+    opacity: .6;
+}
+.fa-chevron-up{
+    border: 1px solid transparent;
+    padding: 15px;
+    background-color: #f46c3f;
+    border-radius: 40px;
+    position: fixed;
+    bottom: 20px;
+    cursor: pointer;
+    color: white;
+}
+.fa-chevron-up:hover{
+    background-color: #2B2BB9;
+}
+/* FOUTH SECTION */
+#fourth{
+height: 700px;
+background-color: #eef3f5;
+}
+.fourthdiv{
+    height: 200px;
+    position: relative;
+}
+#fourth img{
+    width: 100%;
+    height: 100%;
+}
+#fourth h1{
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    opacity: .8;
+    padding-bottom: 20px;
+}
+#fourth hr{
+    width: 5%;
+    margin-top: 20px;
+    border-bottom: 2px solid #f46c3f;
+    
+}
+#fourth h2{
+    font-size: 1em;
+    text-align: center;
+    opacity: .6;
+    letter-spacing: 1px;
+    padding: 40px 0px;
+}
+#fourth h3{
+    
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    background: blue;
+    font-size: .6em;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 50px;
+    opacity: .5;
+}
+#fourth h3:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+#fourth h3:hover::before{
+    content: "\f061";
+    
+}
+#fourth h4{
+    background: brown;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 21px;
+    margin-top: 30px;
+    color: white;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#fourth h4:hover{
+    background-color: #0581A9;
+}
+/* FIFTH SECTION */
+
+.fifsec{
+    height: 600px;
+}
+.qualityservice {
+    background: url("images/doctorweb.jpg") no-repeat;
+    background-size: 100% 100%;
+    
+    padding: 80px 30px;
+    box-sizing: border-box;
+}
+.qualityservice h1{
+    color: #bdb8b8;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: 1px;
+    opacity: .8;
+}
+.qualityservice p{
+    color: #4c4949;
+    font-weight: 500;
+    padding: 30px 0px;
+    font-size: 1.3em;
+}
+.qualityservice button{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    color: white;
+    background: blue;
+    font-size: 1em;
+    text-transform: capitalize;
+    cursor: pointer;
+    opacity: .7;
+}
+.qualityservice button:hover{
+    background-color: #AA2F2F;
+}
+.testimonial{
+    padding: 80px 30px;
+    box-sizing: border-box;
+}
+.testimonial h2{
+    color: #bdb8b8;
+    font-weight: bold;
+    font-size: 3em;
+    letter-spacing: 1px;
+    opacity: .8;
+}
+.testimonial h5{
+    color: transparent;
+    border-bottom: 3px solid #f46c3f;
+    width: 10%;
+    margin-bottom: 10px;
+}
+.testimonial h4{
+    font-size: 4em;
+    color: #0977b9;
+    padding-top: 20px;
+}
+.testimonial span{
+    font-family: cursive;
+    letter-spacing: 1px;
+    opacity: .6;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+.testimonial img{
+    width: 10%;
+    height: 10%;
+    
+    border: 1px solid transparent;
+    border-radius: 30px;
+    float: left;
+}
+.testimonial h3{
+    line-height: 40px;
+    text-indent: 20px;
+    color: blue;
+    font-weight: bold;
+    font-family: sans-serif;
+    opacity: .8;
+    font-size: 1.2em;
+}
+.testimonial h6{
+    
+    text-indent: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    opacity: .7;
+    font-size: .7em;
+}
+.imgdiv{
+    padding: 50px 0px;
+}
+.testimonial .fa-circle{
+    padding: 5px;
+    border: 1px solid transparent;
+    background-color: lightblue;
+    color: blue;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+/* SIXTH SECTION */
+#sixth{
+    height: 400px;
+    
+    background:lightgray;
+}
+#sixth h6{
+    text-align: center;
+    font-size: 3em;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: skyblue;
+    padding: 20px 0px;
+}
+#sixth hr{
+    width: 10%;
+    
+    color: transparent;
+    border: 2px solid brown;
+}
+#sixth i{
+    color: darkblue;
+    font-size: 1.7em;
+    opacity: .9;
+    display: inline-block;
+}
+#sixth h4{
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    opacity: .8;
+    margin-left: 10px;
+
+}
+#sixth img{
+    width: 35%;
+    height: 35%;
+    float: left;
+}
+#sixth h1{
+    font-size: 1.2em;
+    text-transform: capitalize;
+    color: darkblue;
+    opacity: .9;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+}
+#sixth h2{
+    color: darkgray;
+    font-size: 1.1em;
+    text-transform: capitalize;
+    padding: 10px 0px;
+}
+#sixth p{
+    font-size: .9em;
+    letter-spacing: 1px;
+    opacity: .8;
+    padding: 15px 0px;
+}
+#sixth button{
+    border: 1px solid transparent;
+    padding: 10px 15px;
+    background: brown;
+    border-radius: 25px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+#sixth button:hover{
+    background: skyblue;
+    
+}
+/* SEVENTH SECTION */
+#seventh{
+    height: 700px;
+    
+}
+.seventhdiv{
+    padding: 30px 10px;
+}
+#seventh h1{
+    text-align: center;
+    font-size: 3em;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #1C1A1A;
+    padding: 20px 0px;
+}
+#seventh hr{
+    width: 10%;
+    
+    color: transparent;
+    border: 2px solid brown;
+}
+#seventh img{
+    width: 100%;
+    height: 30%;
+}
+#seventh h2{
+    color: deepskyblue;
+    font-weight: bold;
+    font-size: 1.7em;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+#seventh h2:hover{
+    color:brown;
+}
+#seventh h3{
+    opacity: .8;
+    font-weight: 600;
+    font-size: 1em;
+    display: inline-block;
+    
+}
+#seventh p{
+    font-size: 1em;
+    padding: 20px 0px;
+    letter-spacing: 1px;
+    opacity: .8;
+    color: #848080;
+}
+#seventh h4{
+    display: inline-block;
+    border-left: 2ps solid brown;
+    border-left: 2px solid brown;
+    padding-left: 5px;
+    font-size: 1em;
+    text-transform: capitalize;
+    color: brown;
+    transition: all 1s all;
+    cursor: pointer;
+}
+#seventh h4:hover{
+    color: skyblue;
+}
+#seventh span{
+    padding: 5px;
+    border: 1px solid #bdb3b3;
+    color: #bdb3b3;
+    border-radius: 11px;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+#seventh span:hover{
+    background: brown;
+    color: white;
+}
+/* EIGHT SECTION */
+#eight{
+    height: 300px;
+    background-image: url("images/burun_ameliyat.jpg");
+    background-size: 100% 100%;
+}
+#eight h1{
+    
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    padding: 20px 0px;
+    letter-spacing: 1px;
+}
+#eight p{
+    font-size: 1em;
+    color: #4c4a4a;
+    opacity: .6;
+    letter-spacing: 1px;
+    padding: 20px 0px;
+}
+#eight button{
+    color: white;
+    padding: 10px;
+    border: 1px solid transparent;
+    background-color: brown;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+#eight button:hover{
+    background-color: blue;
+    cursor: pointer;
+    
+}
+/* NINTH SECTION */
+#ninth{
+    height: 450px;
+    background-image: url("images/Без названия (3).jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+#ninth .fa{
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    padding: 0px;
+    font-size: 6em;
+    border: none;
+    color: #5959f1;
+    background: transparent;
+}
+/* TENTH SECTION */
+#tenth{
+    height: 300px;
+
+}
+.tenthdiv{
+    padding: 50px 0px;
+}
+#tenth .fa{
+    padding: 20px;
+    border: 1px solid transparent;
+    background: brown;
+    border-radius: 30px;
+    color: white;
+}
+#tenth h1{
+    color: black;
+    padding-top: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    opacity: .7;
+}
+/* ELEVENTH SECTION */
+#eleventh{
+    height: 200px;
+    background:lightblue;
+}
+.eleventhdiv{
+    padding: 50px 0px;
+    box-sizing: border-box;
+}
+#eleventh img{
+    width: 20%;
+    border: 1px solid transparent;
+    border-radius: 35px;
+    float: left;
+    }
+#eleventh h1{
+    font-size: 3.2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0px;
+    padding-top: 10px;
+    line-height: 50px;
+}
+#eleventh p{
+    letter-spacing: 1px;
+    opacity: .5;
+    text-transform: capitalize;
+    font-size: .9em;
+}
+#eleventh span{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 20px;
+    opacity: .8;
+}
+#eleventh .fa{
+    padding: 15px;
+    border: 1px solid transparent;
+    background: white;
+    border-radius: 30px;
+    color: #484545;
+    font-size: 1.7em;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all as ease;
+}
+#eleventh .fa:hover{
+    background: skyblue;
+    color: #868080;
 }

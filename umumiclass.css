@@ -1,4 +1,16 @@
 /* umumi class */
+.mesafe{
+	height: 140px;
+}
+.fullheight{
+	height: 100%;
+}
+.height200{
+	height: 200px;
+}
+.sampleborder{
+	border: 1px solid  black;
+}
 .floatr{
     float: right;
 }
